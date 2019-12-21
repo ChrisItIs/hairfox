@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+        }
+        input[type=submit]{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .form{
+            width: 50%;
+            height: auto;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            font-size: 18px;
+            margin-top: 8%;
+            padding: 10px;
+            box-shadow: 5px 10px #888888;
+            border-radius: 30px;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        tr{
+            text-align: left;
+        }
+        td{
+            padding: 20px;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="form">
+        <form class="act">
+            <table>
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Address:</label></td>
+                    <td><textarea style="height: 50px;resize:none;width: 100% "></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Certified?:</label></td>
+                    <td><input type="radio" name="certify" value="yes">Yes&nbsp;<input type="radio" name="certify" value="no">No</td>
+                </tr>
+                <tr>
+                    <td><label>Experience:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Photo:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
